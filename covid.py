@@ -19,6 +19,3 @@ while True:
     except:
 
         print("Somthing got wrong you stupid as well as eidot!!")
-
-    if countryname == "quit":
-        exit()
