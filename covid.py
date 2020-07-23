@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 while True:
     countryname = input("Country name: ")
     country = countryname.lower()
+    
+    if country == "quit":
+        exit()
 
     url = ("https://www.worldometers.info/coronavirus/country/"+country)
     req = requests.get(url)
